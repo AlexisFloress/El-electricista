@@ -7,10 +7,18 @@ public class CharacterControllerUV2 : MonoBehaviour
     private Vector3 _currentMovement;
     private Vector2 _movement;
     private float _sprint;
+    private float _jumpForce;
     [SerializeField] private float _speed = 5f;
+    private Rigidbody rb;
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         _characterController = GetComponent<CharacterController>();
+    }
+
+    private void OnEnable()
+    {
+        
     }
 
     void Update()
@@ -40,4 +48,10 @@ public class CharacterControllerUV2 : MonoBehaviour
             _currentMovement.y -= 9.81f * Time.deltaTime;
         }
     }
+    void Jump()
+    {
+       
+    }
+
+
 }
