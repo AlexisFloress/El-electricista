@@ -8,6 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerMovementTest.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/CarMovement.unity
+    guid: 35574161cc1c341418c5428069321da5
+  - enabled: 1
+    path: Assets/Scenes/MAPA LAYOUT SALVADOR.unity
+    guid: af5685be11d982f4b9cecc67f8460a7f
+  - enabled: 1
+    path: Assets/Scenes/Menu Principal.unity
+    guid: 1c36315d77dec8c4d895df6971e5e775
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 9d5d8cd6984a4a34481d8c5b699a6dc7
+  - enabled: 1
+    path: Assets/Scenes/MiniGame-Labyrinth.unity
+    guid: 8e4a651f069cb4940bd4a7d83f984721
+  - enabled: 1
+    path: Assets/Scenes/GamePlay.unity
+    guid: d14f3bc5e5056da44a8ce01bc3a35782
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
