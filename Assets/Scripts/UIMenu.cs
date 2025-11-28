@@ -5,7 +5,7 @@ public class UIMenu : MonoBehaviour
 {
     public void GoToGame()
     {
-        SceneManager.LoadScene("MAPA LAYOUT SALVADOR");
+        SceneManager.LoadScene("GamePlay");
     }
     public void GoToCreditos()
     {
