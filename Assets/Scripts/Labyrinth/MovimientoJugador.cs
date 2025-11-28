@@ -1,3 +1,4 @@
+// ...existing code...
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -14,7 +15,6 @@ public class MovimientoJugador : MonoBehaviour
 
     void Update()
     {
-        // Captura entrada del teclado
         float moverX = Input.GetAxisRaw("Horizontal");
         float moverY = Input.GetAxisRaw("Vertical");
         movimiento = new Vector2(moverX, moverY).normalized;
@@ -22,7 +22,6 @@ public class MovimientoJugador : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Aplica movimiento con física
         rb.linearVelocity = movimiento * velocidad;
     }
 }
